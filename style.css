@@ -59,3 +59,49 @@ nav>ul>li {
     background: #4840BB;
     color: white;
 }
+
+.banner {
+    padding: 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.banner>img {
+    flex: 50% 0 1;
+}
+
+.banner__desc {
+    flex: 50% 0 0;
+    display: flex;
+
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner__desc>h1 {
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 1.9px;
+    width: 352px;
+    color: #230B59;
+}
+
+.banner__desc>p {
+    font-size: 15px;
+    line-height: 21.6px;
+    color: #230B59;
+    width: 249px;
+}
+
+.banner__desc>button {
+    background: #4840BB;
+    width: 120px;
+    border: none;
+    border-radius: 6px;
+    padding: 11px 20px;
+    color: white;
+    font-size: 16px;
+
+}
