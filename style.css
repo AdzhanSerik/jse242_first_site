@@ -10,4 +10,16 @@
 header {
     display: flex;
     justify-content: space-between;
+    /* равномерное выоавнимае по горизонтали */
+    align-items: center;
+    /* выравнивание по вертикали */
+}
+
+nav>ul {
+    display: flex;
+    /* выравнивание по горизонтали */
+    list-style: none;
+    /* убираем маркеры */
+    gap: 30px;
+    /* равномерный отступ между элементами */
 }
