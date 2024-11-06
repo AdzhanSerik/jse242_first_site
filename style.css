@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    /* внешние отступы */
+    padding: 0;
+    /* внутренние отступы */
+    box-sizing: border-box;
+    /* учитывать размеры внешнего и внутреннего пространства */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
